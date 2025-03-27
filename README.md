@@ -11,8 +11,6 @@ semanticKITTI datasets: https://semantic-kitti.org/dataset.html#download
 
 
 ```
-mmdetection3d
-
 ├── data
 │   ├── semantickitti
 │   │   ├── sequences
