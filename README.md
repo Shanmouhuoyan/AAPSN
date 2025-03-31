@@ -1,4 +1,4 @@
-## How to get datasets
+## How to get datasets:
 ```
 Paris-lille-3D datasets: https://npm3d.fr/paris-lille-3d
 
@@ -6,7 +6,7 @@ Paris-lille-3D datasets: https://npm3d.fr/paris-lille-3d
 semanticKITTI datasets: https://semantic-kitti.org/dataset.html#download
 ```
 
-文件夹结构应按如下方式组织:
+The folder structure for the datasets should be arranged as follows:
 ```
 ├── data
 │   ├── semantickitti
@@ -19,7 +19,7 @@ semanticKITTI datasets: https://semantic-kitti.org/dataset.html#download
 │   │   │   ├── 22
 ```
 
-Pre-training weight acquisition methods：
+## How to get pretrained datasets:
 ```
 Pretrained weights: https://drive.google.com/drive/folders/1VAkqCPZxOqnCIragI0Xr0nJ0bdhsi0j1?usp=drive_link
 ```
