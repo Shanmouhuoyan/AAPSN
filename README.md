@@ -1,15 +1,12 @@
+## How to get datasets
+```
 Paris-lille-3D datasets: https://npm3d.fr/paris-lille-3d
 
 
 semanticKITTI datasets: https://semantic-kitti.org/dataset.html#download
-
-
-
-
+```
 
 文件夹结构应按如下方式组织:
-
-
 ```
 ├── data
 │   ├── semantickitti
@@ -21,6 +18,13 @@ semanticKITTI datasets: https://semantic-kitti.org/dataset.html#download
 │   │   │   ├── ..
 │   │   │   ├── 22
 ```
+
+Pre-training weight acquisition methods：
+```
+Pretrained weights: https://drive.google.com/drive/folders/1VAkqCPZxOqnCIragI0Xr0nJ0bdhsi0j1?usp=drive_link
+```
+
+
 🏆 期刊关联声明  
 本项目是The Visual Computer期刊(ISSN 0178-2789)候选论文的官方实现，引用请使用：
 ```Bibtex:
