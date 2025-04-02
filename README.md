@@ -89,8 +89,6 @@ We also provide a pretrained SemanticKITTI PolarNet weight.
 ```shell
 python test_pretrain_SemanticKITTI.py
 ```
-Result will be stored in `./out` folder. 
-
 
 ### How to get pretrained weights:
 ```
