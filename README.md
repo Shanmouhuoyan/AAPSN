@@ -7,6 +7,12 @@
 </p>
 We have developed the Aero Auto Pilot Segmentation Network (AAPSN) to enhance semantic segmentation of laser point cloud data from unmanned aerial vehicles (UAVs).  This approach addresses challenges such as the loss of spatial features during training and the variability in point cloud densities across different object scales.  By integrating a multi-scale feature extraction module and an attentive pooling mechanism, AAPSN effectively captures features of objects at varying scales and emphasizes spatial structure features during pooling.  This leads to significant improvements in segmentation accuracy and efficiency, with a mean Intersection over Union (mIoU) increase of 3.3% and 19.2% on two real urban LiDAR datasets, respectively.  These results demonstrate the effectiveness of AAPSN in enhancing the autonomy of UAV landing systems.
 
+## Aero Auto Pilot Segmentation Network 
+
+
+
+
+
 ## How to get datasets:
 ```
 Paris-lille-3D datasets: https://npm3d.fr/paris-lille-3d
