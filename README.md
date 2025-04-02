@@ -1,3 +1,7 @@
+ Enhanced Semantic Segmentation of Drone Point Cloud Data for Autonomous Landing via Multi-Scale Feature Extraction and Attentive Pooling
+==========
+
+
 ## How to get datasets:
 ```
 Paris-lille-3D datasets: https://npm3d.fr/paris-lille-3d
@@ -19,7 +23,7 @@ The folder structure for the datasets should be arranged as follows:
 │   │   │   ├── 22
 ```
 
-## How to get pretrained datasets:
+## How to get pretrained weights:
 ```
 Pretrained weights: https://drive.google.com/drive/folders/1VAkqCPZxOqnCIragI0Xr0nJ0bdhsi0j1?usp=drive_link
 ```
