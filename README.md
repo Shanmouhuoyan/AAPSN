@@ -70,11 +70,27 @@ The folder structure for the datasets should be arranged as follows:
 ```
 ## Run
 ```shell
-python KITTItrain.py
+python Kittitrain.py
 ```
-to train a SemanticKITTI segmentation PolarNet from scratch after dataset preparation. The code will automatically train, validate and early stop training process.
+to train a SemanticKITTI segmentation net from scratch after dataset preparation. The code will automatically train, validate and early stop training process.
+Similarly , you can use
 
-Note that we trained our model on a single Tesla P100 which has 16 GB GPU memory. Training model on GPU with less memory would likely cause GPU out-of-memory. You will see the exception report if there is a OOM. In this case, you might want to train model with smaller quantization grid/ feature map via `python train_SemanticKITTI.py --grid_size 320 240 32`.
+```shell
+python PLtrain.py
+```
+to train a Paris-Lille segmentation net 
+
+
+Note that we trained our model on a single Tesla P100 which has 16 GB GPU memory. Training model on GPU with less memory would likely cause GPU out-of-memory. You will see the exception report if there is a OOM. In this case, you might want to train model with smaller quantization grid/ feature map via `python Kitiitrain.py --grid_size 320 240 32`.
+
+## Evaluate our pretrained model
+
+We also provide a pretrained SemanticKITTI PolarNet weight.
+```shell
+python test_pretrain_SemanticKITTI.py
+```
+Result will be stored in `./out` folder. 
+
 
 ### How to get pretrained weights:
 ```
