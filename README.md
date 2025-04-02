@@ -32,7 +32,7 @@ Squeezesegv2  | 39.7% | 30.1%
 
 
 ## Preparations
-### environment
+### Environment
 
 This code is tested on Ubuntu 18.02 with Python 3.9, CUDA 12.2 and Pytorch 1.12.1.
 
@@ -68,8 +68,14 @@ The folder structure for the datasets should be arranged as follows:
 │   │   │   ├── ..
 │   │   │   ├── 22
 ```
+## Run
+```shell
+python train_SemanticKITTI.py
+```
+to train a SemanticKITTI segmentation PolarNet from scratch after dataset preparation. The code will automatically train, validate and early stop training process.
 
-## How to get pretrained weights:
+Note that we trained our model on a single TITAN Xp which has 12 GB GPU memory. Training model on GPU with less memory would likely cause GPU out-of-memory. You will see the exception report if there is a OOM. In this case, you might want to train model with smaller quantization grid/ feature map via `python train_SemanticKITTI.py --grid_size 320 240 32`.
+### How to get pretrained weights:
 ```
 Pretrained weights: https://drive.google.com/drive/folders/1VAkqCPZxOqnCIragI0Xr0nJ0bdhsi0j1?usp=drive_link
 ```
