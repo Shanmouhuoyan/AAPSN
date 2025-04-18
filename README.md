@@ -49,12 +49,12 @@ Install the following dependencies by either `pip install -r requirements.txt` o
 
 
 ### How to get datasets:
-```
-Paris-lille-3D datasets: https://npm3d.fr/paris-lille-3d
+
+[Paris-lille-3D datasets](https://npm3d.fr/paris-lille-3d)
 
 
 semanticKITTI datasets: https://semantic-kitti.org/dataset.html#download
-```
+
 When you want to trian with semanticKITTI dataset:
 The folder structure for the datasets should be arranged as follows:
 ```
