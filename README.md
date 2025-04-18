@@ -110,13 +110,8 @@ python test_pretrain_SemanticKITTI.py
 ```
 
 ### How to get pretrained weights:
-```
+
 Pretrained weights: https://drive.google.com/drive/folders/1VAkqCPZxOqnCIragI0Xr0nJ0bdhsi0j1?usp=drive_link
-```
 
 
 
-  journal={The Visual Computer},
-  year={2023},
-  publisher={Springer}
-}
